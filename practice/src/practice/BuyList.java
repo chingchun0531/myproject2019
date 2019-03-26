@@ -19,7 +19,7 @@ public class BuyList {
 			name = scanner.nextLine();
 			System.out.print("Enter item's quantity :");
 			int qty = Integer.parseInt(scanner.nextLine());
-			items.add(new Item(name,qty));
+		items.add(new Item(name,qty));
 		}
 		for(Item item : items ) {
 			System.out.print(item.name + "\t" + item.qty);
