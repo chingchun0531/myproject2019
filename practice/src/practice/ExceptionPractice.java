@@ -9,14 +9,14 @@ public class ExceptionPractice {
 int bonus = 200000;
 int div = 0;
 Scanner scanner = new Scanner(System.in);
-System.out.print("å¤šå°‘å€‹äººåˆ†?");
+System.out.print("¦h¤Ö­Ó¤H¤À??");
 String number = scanner.nextLine();
 try {
 int n = Integer.parseInt(number);
 div = bonus/n;
-System.out.print("æ¯å€‹äººåˆ†"+div);
+System.out.print("¨C­Ó¤H¤À"+div);
 	}catch(Exception e) {
-		System.out.print("è³‡æ–™éŒ¯èª¤");
+		System.out.print("¸ê®Æ¿ù»~");
 	}
 	
 }

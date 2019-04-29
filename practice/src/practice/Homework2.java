@@ -1,3 +1,4 @@
+
 package practice;
 
 import java.util.Scanner;
@@ -7,15 +8,15 @@ public class Homework2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 Scanner scanner = new Scanner(System.in);
-System.out.print("è«‹è¼¸å…¥æ•¸å­¸æˆç¸¾:");
+System.out.print("½Ğ¿é¤J¼Æ¾Ç¦¨ÁZ:");
 try {
 int math = Integer.parseInt(scanner.nextLine());	
-System.out.print("è«‹è¼¸å…¥è‹±æ–‡æˆç¸¾:");
+System.out.print("½Ğ¿é¤J­^¤å¦¨ÁZ:");
 int eng = Integer.parseInt(scanner.nextLine());
 int average = (math+eng)/2;
-System.out.print("å¹³å‡ç‚º"+average);
+System.out.print("¥­§¡¬°"+average);
 }catch(Exception e) {
-	System.out.print("æ ¼å¼éŒ¯èª¤");
+	System.out.print("®æ¦¡¿ù»~");
 }
 
 	}
