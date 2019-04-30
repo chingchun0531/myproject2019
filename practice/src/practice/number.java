@@ -9,13 +9,13 @@ public class number {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("請輸入數學成績:");
 		int math = Integer.parseInt(scanner.nextLine());
-		if (math < 1) {
+		if (math < 0) {
 			System.out.print("格式錯誤");
 		} else {
 			System.out.print("請輸入英文成績:");
 		}
 		int eng = Integer.parseInt(scanner.nextLine());
-		if (math < 1) {
+		if (math < 0) {
 			System.out.print("格式錯誤");
 		} else {
 			int average = (math + eng) / 2;
